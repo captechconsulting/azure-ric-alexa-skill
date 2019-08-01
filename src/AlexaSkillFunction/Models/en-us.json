@@ -1,0 +1,48 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "hello richmond azure",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [
+            {
+              "name": "Name",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "samples": [
+            "say hello {Name}",
+            "say hello world {Name}",
+            "hello {Name}",
+            "say hi {Name}",
+            "say hi world {Name}",
+            "hi",
+            "how are you"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  }
+}
